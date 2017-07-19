@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                gradle {
+                gradleBuild {
                     tasks = 'build'
                 }
             }
